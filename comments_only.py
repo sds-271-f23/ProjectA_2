@@ -11,7 +11,7 @@ class fit_and_plot:
     # self.x to self.df's altitude column, and self.y to self.df's temperature_kel column
     def __init__(self, path):
         self.path = path
-        self.df = cleanData(readData(self.path))
+        self.df = self.cleanData(self.readData(self.path))
         self.x = self.df["altitude"]
         self.y = self.df["temperature_kel"]
 
