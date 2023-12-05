@@ -93,4 +93,4 @@ class fit_and_plot:
         plt.ylabel("Altitude (km)")
         # add plot title, labels for x-axis and y-axis, and legend
         plt.title("Altitude (km) vs. Temperature (K)")
-        plt.legend(fontsize = 12)
+        plt.legend(fontsize = 15)
